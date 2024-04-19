@@ -8,8 +8,6 @@
 
 /*-----------Buttons styles------------------*/
 
-
-
 .btn1 {
   background-color: #dcb406;
   color: #000000;
@@ -103,163 +101,33 @@ li a:hover {
   color: aliceblue;
 }
 
-
-
-
-/*--------------Slider Styles ----------------*/
-/* Slideshow container */
-.slideshow-container {
-  max-width: 100%;
-  position: relative;
+/*Booking page styles*/
+.booking-container {
   margin: auto;
-}
-
-/* Hide the images by default */
-.mySlides {
-  display: none;
-}
-
-/* Next & previous buttons */
-.prev,
-.next {
-  cursor: pointer;
-  position: absolute;
-  top: 50%;
-  width: auto;
-  margin-top: -22px;
-  padding: 16px;
-  color: white;
-  font-weight: bold;
-  font-size: 18px;
-  transition: 0.6s ease;
-  border-radius: 0 3px 3px 0;
-  user-select: none;
-}
-
-/* Position the "next button" to the right */
-.next {
-  right: 0;
-  border-radius: 3px 0 0 3px;
-}
-
-/* On hover, add a black background color with a little bit see-through */
-.prev:hover,
-.next:hover {
-  background-color: rgba(0, 0, 0, 0.8);
-}
-
-/* Caption text */
-.text {
-  color: #f2f2f2;
-  font-size: 15px;
-  padding: 8px 12px;
-  position: absolute;
-  bottom: 8px;
-  width: 100%;
-  text-align: center;
-}
-
-
-
-/* The dots/bullets/indicators */
-.dot {
-  cursor: pointer;
-  height: 15px;
-  width: 15px;
-  margin: 0 2px;
-  background-color: #bbb;
-  border-radius: 50%;
-  display: inline-block;
-  transition: background-color 0.6s ease;
-}
-
-.active,
-.dot:hover {
-  background-color: #717171;
-}
-
-/* Fading animation */
-.fade {
-  animation-name: fade;
-  animation-duration: 1.5s;
-}
-
-@keyframes fade {
-  from {
-    opacity: .4
-  }
-
-  to {
-    opacity: 1
-  }
-}
-
-/* Home about  us section style */
-.home-about {
-  display: flex;
-  flex-direction: row;
-}
-
-.hr {
-  color: #186ded;
-  width: 150px;
-}
-
-.right-about {
-  margin: 10px 10px 10px 10px;
+  margin-top: 50px;
+  margin-bottom: 50px;
   padding: 20px 20px 20px 20px;
-}
-
-.right-about h1 {
-  font-weight: 800;
-}
-
-/* Home services style*/
-.home-services {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-
-}
-
-.left-service,
-.right-service {
-  padding: 10px 80px 10px 90px;
-}
-
-.services {
-  background-color: #b6b6b6;
+  background-color: #b8b8b8;
   border-radius: 20px;
-  width: 80%;
-  text-align: center;
-  padding: 20px 20px 20px 20px;
+  width: 90%;
 }
 
-.services h1 {
-  color: #444343;
+.booking-container input {
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px
 }
 
-.services .title {
-  color: #186ded;
+.booking-container textarea {
+  border-radius: 15px;
+  padding: 10px 10px 10px 10px;
 }
 
-/*reviews section style*/
-.reviews {
-  display: flex;
+.booking-container label {
+  margin-left: 20px;
 }
 
-.reviewbox {
-  margin: 100px 30px 30px 30px;
-  background-color: #444343;
-  padding: 30px 30px 30px 30px;
-  color: #f2f2f2;
-  border-radius: 20px;
-  width: 600px;
-  text-align: center;
-}
-
-.reviewbox img {
-  border-radius: 50%;
+.booking-container table tr td {
+  height: 50px;
 }
 
 /*-----Footer styles----*/
