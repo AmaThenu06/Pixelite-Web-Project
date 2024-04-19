@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home || Pixelite</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <script src="https://kit.fontawesome.com/42e5148630.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!--Nav bar-->
+    <nav class="navbar">
+        <div class="navdiv">
+            <div class="logo"><a href="#"><img src="images/logo.png" alt="" width="10%"></a></div>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="book.html" class="active-home">Book Now</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <a href="#"><button class="btn1">LOG IN</button></a>
+                <a href="#"><button class="btn2">SIGN UP</button></a>
+            </ul>
+        </div>
+
+    </nav>
+
+
+    <div class="booking-container">
+        <form action="">
+            <table width="100%">
+                <tr>
+                    <td>
+                        <label for="name">Event Type :</label>
+                        <select name="event" id="">
+                            <option value="" disabled selected>Select Event Type</option>
+                            <option value="Graduation">Graduation</option>
+                            <option value="Batch">Batch Party</option>
+                            <option value="Exhibition">Exhibition</option>
+                            <option value="Anniversary">Anniversary celebration</option>
+                        </select>
+                    </td>
+                    <td>
+                        <label for="email">Booking Requesting Person's Name :</label>
+                        <input type="text">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="email">Event Manager's Name :</label>
+                        <input type="text">
+                    </td>
+                    <td><label for="subject">Email :</label>
+                        <input type="email">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="subject">Event Date :</label>
+                        <input type="date">
+                    </td>
+                    <td><label for="subject">Time :</label>
+                        <input type="time">
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="subject">Event Location(Reception Or Other) :</label>
+                        <input type="text">
+                    </td>
+                    <td><label for="subject">Type of the event :</label>
+                        <select name="type" id="">
+                            <option value="" disabled selected>Select type of the event</option>
+                            <option value="indoor">Indoor</option>
+                            <option value="outdoor">Outdoor</option>
+                            <option value="indoorOutdoor">Indoor & Outdoor</option>
+                            <option value="other">Other</option>
+                        </select>
+                        <label for="guests">No of guests :</label>
+                        <input type="number">
+                    </td>
+                   
+                </tr>
+                <tr>
+                    
+                    <td>
+                        <label for="hear">How did you hear about us?</label><br>
+                        <textarea name="" id="" cols="30" rows="5"></textarea>
+                    </td>
+                    <td>
+                        <label for="message">Message :</label><br>
+                        <textarea name="msg" id="" cols="30" rows="5"></textarea>
+                    </td>
+                </tr>
+                <tr>
+                    
+                </tr>
+            </table><br>
+            <button class="btn3">Request A Quote</button>
+        </form>
+    </div>
+    </div>
+
+
+    <!--Footer-->
+    <footer>
+        <div class="footer1">
+            <center><img src="images/logo.png" alt="" width="30%">
+                <p>"Lorem ipsum dolor sit amet consectetur."</p><br>
+                <h3>Connect With Us</h3>
+                <hr class="hr1">
+                <ul>
+                    <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                </ul>
+            </center>
+        </div>
+        <div class="footer2">
+            <h3>Quick links</h3>
+            <hr class="hr1" style="float:left"><br>
+            <p><a href="#">About Us</a></p>
+            <p><a href="#">Contact Us</a></p>
+            <p><a href="#">FAQs</a></p>
+            <p><a href="#">Terms of Service</a></p>
+            <p><a href="#">Privacy Policy</a></p>
+        </div>
+        <div class="footer3">
+            <h3>Contact Information</h3>
+            <hr class="hr1" style="float:left"><br>
+            <p><i class="fa-solid fa-location-dot"></i> 123 Main Street, City, Country</p>
+            <p><i class="fa fa-phone"></i> Phone: +123 456 789</p>
+            <p><i class="fa-solid fa-envelope"></i> Email: info@example.com</p>
+        </div>
+
+
+
+    </footer>
+    <div class="copyright">
+        <p>&copy; 2024 Pixelite.com || All rights reserved.</p>
+    </div>
+
+
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+/*--------------Nav bar styles-------*/
+.navbar {
+    background-color: #000000;
+    padding-right: 15px;
+    padding-left: 15px;
+    height: 120px;
+    box-shadow: 5px 10px 10px #888888;
+}
+
+.navdiv {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: block;
+    width: 30%;
+}
+
+.logo img {
+    width: 30%;
+}
+
+ul {
+    width: 70%;
+    margin-left: 20%;
+}
+
+li {
+    list-style: none;
+    display: inline-block;
+    color: #a2a1a1;
+    margin-top: 30px;
+}
+
+li a {
+    text-decoration: none;
+    color: #b6b6b6;
+    font-size: 15px;
+    margin-right: 25px;
+    text-transform: uppercase;
+
+}
+
+li .active-home {
+    color: #dcb406;
+}
+
+
+li a:hover {
+    color: aliceblue;
+}
+
+/*-----------Buttons styles------------------*/
+
+
+
+.btn1 {
+    background-color: #dcb406;
+    color: #000000;
+    border-color: transparent;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 12px;
+}
+
+.btn2 {
+    background-color: #666;
+    border-color: transparent;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: white;
+    font-size: 12px;
+}
+.btn3{
+    background-color: #dcb406;
+    border-color: transparent;
+    margin-left: 10px;
+    border-radius: 10px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    width:150px;
+}
+
+button:hover {
+    background-color: #c2c0c0;
+    color: #000000;
+    cursor: pointer;
+}
+
+
+/*--------------Slider Styles ----------------*/
+/* Slideshow container */
+.slideshow-container {
+    max-width: 100%;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Hide the images by default */
+  .mySlides {
+    display: none;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(0,0,0,0.8);
+  }
+  
+  /* Caption text */
+  .text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 8px;
+    width: 100%;
+    text-align: center;
+  }
+  
+
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #717171;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4}
+    to {opacity: 1}
+  }
+
+  /* Home about  us section style */
+  .home-about{
+    display:flex;
+    flex-direction: row;
+  }
+  .hr{
+    color: #186ded;
+    width:150px;
+  }
+  .right-about{
+    margin:10px 10px 10px 10px;
+    padding:20px 20px 20px 20px;
+  }
+  .right-about h1{
+    font-weight:800;
+  }
+
+  /* Home services style*/
+  .home-services{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+  }
+  .left-service, .right-service{
+    padding:10px 80px 10px 90px;
+  }
+  .services{
+    background-color: #b6b6b6;
+    border-radius: 20px;
+    width:80%;
+    text-align: center;
+    padding:20px 20px 20px 20px;
+  }
+  .services h1{
+    color: #444343;
+  }
+  .services .title{
+    color: #186ded;
+  }
+
+  /*reviews section style*/
+  .reviews{
+    display: flex;
+  }
+  .reviewbox{
+    margin:100px 30px 30px 30px;
+    background-color: #444343;
+    padding:30px 30px 30px 30px;
+    color:#f2f2f2;
+    border-radius: 20px;
+    width:600px;
+    text-align: center;
+  }
+  .reviewbox img{
+    border-radius: 50%;
+  }
+  
+  /*-----Footer styles----*/
+footer {
+    background-color: #000000;
+    border-top: 5px solid #186ded;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    color: #ffffff;
+    justify-content: center;
+
+}
+
+.footer1 p {
+    font-family: "Whisper", cursive;
+}
+
+.footer1,
+.footer2,
+.footer3 {
+    padding: 50px 50px 50px 50px;
+    width: 35%;
+}
+
+.footer2 p a {
+    text-decoration: none;
+    color: #aeaeae;
+    line-height: 2;
+}
+.footer3 p {
+    text-decoration: none;
+    color: #aeaeae;
+    line-height: 2.5;
+}
+
+.footer2 p a:hover {
+    color: #186ded;
+}
+
+
+.copyright {
+    background-color: #186ded;
+    color: #fff;
+    text-align: center;
+    padding: 10px 10px 10px 10px;
+    margin: 0px 0px 0px 0px;
+}
+
+
+
+
+
+/*Contact Page style*/
+.contact-container{
+    display:flex;
+    flex-direction: row;
+    margin:50px 0px 50px 200px;
+}
+.right-contact{
+    margin:50px 50px 50px 50px;
+    line-height: 1.4;
+    background-color: #a2a1a1;
+    padding:50px 50px 50px 50px;
+    border-radius:20px;
+}
+.right-contact input{
+    border-radius:20px;
+    padding:5px 5px 5px 5px;
+    width:95%;
+}
+.right-contact textarea{
+    border-radius:20px;
+    padding:5px 5px 5px 5px;
+}
+
+
+/*service style*/
+.About-hero {
+  height: 50vh; 
+  background-image: url("https://media.kingston.com/kingston/hero/ktc-hero-blog-personal-storage-photographers-best-practices-storing-archiving-images-lg.jpg"); /* Replace with the path to your hero image */
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+}
+
+.About-hero::before {
+  content: ""; 
+  position: absolute; 
+  top: 1;
+  left: 0;
+  width: 100%; 
+  height: 50%;
+  background-color: rgba(0, 0, 0, 0.7); 
+}
+
+
+.About-hero h1 {
+  position: relative;
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+
+.About-hero p {
+  position: relative;
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.img{
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.img img{
+    width:100%;
+}
+
+.service-box i{
+  font-size: 100px;
+  margin:30px 100px 10px 100px;
+  padding:20p 20px 20px 20px;
+}
+.service-box i:hover{
+  color:#b49408;
+}
+.services-container{
+  display: flex;
+  justify-content: center;
+  background-color: #a2a1a1;
+  width:60%;
+  padding:10px 10px 10px 10px;
+  border-radius: 20px;
+}
+.service-title{
+  margin-top:-300px;
+  align-items: center;
+  position: absolute;
+}
+
+
+
+/*about us style*/
+.about-container{
+  display:flex;
+  flex-direction: row;
+}
+.left-about{
+  width:50%;
+}
+.right-about{
+  width:50%;
+}
+.left-about img{
+  margin-left:100px;
+}
+.right-about i{
+  font-size:100px;
+}
+.right-about p{
+  margin-left:80px;
+  margin-right:60px;
+}
+.right-about .social i{
+  font-size:50px;
+  margin-left:70px;
+  color:#186ded;
+}
+.right-about .social i:hover{
+  color: #717171;
+}
+
+
+
+/*Booking page styles*/
+.booking-container{
+  margin:auto;  
+  margin-top:50px;
+  margin-bottom: 50px;
+  padding:20px 20px 20px 20px;
+  background-color: #b8b8b8;
+  border-radius: 20px;
+  width:90%;
+}
+.booking-container input{
+  border-radius: 15px;
+  padding:10px 10px 10px 10px
+}
+.booking-container textarea{
+  border-radius: 15px;
+  padding:10px 10px 10px 10px;
+}
+.booking-container label{
+  margin-left:20px;
+}
+.booking-container table tr td{
+  height:50px;
+}
