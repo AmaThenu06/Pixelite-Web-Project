@@ -27,3 +27,5 @@ let slideIndex = 0;
     function currentSlide(n) {
         showSlides(slideIndex = n);
     }
+
+

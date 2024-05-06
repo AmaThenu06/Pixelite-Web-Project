@@ -1,37 +1,30 @@
 * {
-    margin: 0;
-    padding: 0;
+
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
 
 body {
+    background-image: url('../images/img6.jpg');
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: url("../images/img3.jpg") no-repeat;
     background-size: cover;
     background-position: center;
+    
 }
-body::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0, 0, 0, 0.7);
-}
+
 
 .wrapper {
     width: 420px;
     background: transparent;
     border: 2px solid rgba(255, 255, 255, .2);
     backdrop-filter: blur(10px);
-
     color: white;
     border-radius: 12px;
-    padding: 30px 40px;
-
+    padding: 10px 40px;
+    margin:100px 100px 100px 100px;
 }
 
 .wrapper h1 {
@@ -128,3 +121,4 @@ body::before {
 .registerlink p a:hover {
     text-decoration: underline;
 }
+

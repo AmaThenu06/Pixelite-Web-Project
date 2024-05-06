@@ -1,0 +1,373 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body{
+    background: url("../images/Beige White Aesthetic Wedding YouTube Thumbnail.svg")no-repeat;
+    background-size: cover;
+    height: 100vh;
+    background-position: center;
+  }
+
+
+  
+li{
+  list-style: none;
+}
+
+a{
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 1rem;
+}
+
+a:hover{
+  color: rgb(255, 132, 0);
+}
+
+/*header*/
+
+header{
+  position: relative;
+  padding: 0 2rem;
+}
+
+.navbar {
+  width: 100%;
+  height: 60px;
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  
+}
+
+.navbar .links {
+  display: flex;
+  gap: 2rem;
+
+}
+
+.navbar .tag{
+  color: #ffffff;
+  font-size: 1.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+
+.btn1{
+  background-color: orange;
+  color: white;
+  padding: 0.5rem 1rem;
+  border: none;
+  outline: none;
+  border-radius: 20px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  cursor: pointer;
+
+}
+
+/*dropdown menu*/
+.dropdown_menu{
+  display: none;
+  position: absolute;
+  right: 2rem;
+  top: 60px;
+  height: 0;
+  width: 300px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  border-radius: 10px;
+  overflow: hidden;
+  transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+.dropdown_menu.open{
+  height: 450px;
+}
+
+.dropdown_menu li{
+  padding: 0.7rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dropdown_menu .btn1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+/*hero*/
+section#hero{
+  height: calc(100vh - 60px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: #fff;
+}
+
+#hero h1{
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+#hero p{
+  color:#fff;
+}
+
+/* event */
+section{
+  width: 80%;
+  margin: 80px auto;
+}
+
+.title h1{
+  text-align: center;
+  font-size: 4rem;
+  color: rgb(179, 158, 51);
+}
+
+
+/*container styles*/
+.products-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 40px 50px 10px 50px;
+}
+
+.p1 {
+  margin: 20px;
+  padding: 20px;
+  width: 300px;
+  background-image: linear-gradient(rgb(190, 146, 50), rgb(0, 0, 0));
+  color: #fff;
+  border-radius: 20px;
+}
+
+
+.products-container i {
+  font-size: 60px;
+  margin-top: 250px;
+  cursor: pointer;
+}
+
+
+
+.p1 img {
+  border-radius: 20px;
+  cursor: zoom-in;
+}
+
+.p1 img:hover {
+  transform: scale(1.1);
+}
+/* event */
+section{
+  width: 80%;
+  margin: 80px auto;
+}
+
+.title{
+  text-align: center;
+  font-size: 4vmin;
+  color: rgb(179, 158, 51);
+}
+
+.ctn{
+  padding: 8px 15px;
+  background: rgb(237, 237, 168);
+  border-radius: 30px;
+  color: black;
+}
+/*
+.row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+
+.row .col{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.events .row{
+  margin-top: 50px;
+}
+
+h4{
+  font-size: 3rem;
+  color: rgb(121, 118, 114);
+  margin: 20px auto;
+}
+
+p{
+  color: black;
+
+}
+
+.ctn{
+  padding: 8px 15px;
+  background: rgb(237, 237, 168);
+  border-radius: 30px;
+  color: black;
+}
+
+.events .ctn{
+  margin-top: 30px;
+}*/
+
+/*about*/
+
+.about{
+  width: 100%;
+  height: 80%;
+  background-image: url("../images/a2.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+}
+
+.about-content{
+  width: 60%;
+  padding: 50px;
+  color: #ffffff;
+  align-items: center;
+  flex-direction: column;
+}
+
+.about-content h1{
+  font-size: 7rem;
+  margin-bottom: 50px;
+}
+.about-content p{
+  color: rgb(255, 255, 255);
+  margin-top: -50px;
+
+}
+
+.about-content .ctn{
+  margin-top: 100px;
+}
+
+
+
+/*reviews section style*/
+.reviews {
+  display: flex;
+}
+
+.reviewbox {
+  margin: 10px 10px 10px 30px;
+  background-color: #9c7209;
+  padding: 30px 30px 30px 30px;
+  color: #f2f2f2;
+  border-radius: 20px;
+  width: 600px;
+  text-align: center;
+}
+
+.reviewbox img {
+  border-radius:50px;
+}
+
+.footer{
+  width: 100%;
+  min-height: 100px;
+  padding: 20px 80px;
+  margin: 0;
+  background-color: rgb(98, 94, 73);
+  text-align: center;
+}
+
+.footer p{
+  color: whitesmoke;
+  margin: 20px auto;
+  padding: 20px auto;
+}
+
+/*responsive design */
+
+@media(max-width: 992px){
+  .navbar .links,
+  .navbar .btn1{
+    display: none;
+  }
+
+  .navbar .tag{
+    display: block;
+  }
+
+  .dropdown_menu{
+    display: block;
+  }
+}
+
+@media(max-width: 576px){
+  .dropdown_menu{
+    left: 2rem;
+    width: unset;
+  }
+}
+  /*--------------Nav bar styles-------*
+  
+
+.logo {
+    display: block;
+    width: 30%;
+    height: auto;
+    padding: 20px 100px;
+  }
+  
+  .logo img {
+    width: 20%;
+  }
+  
+
+  .navbar ul {
+    float: right;
+    margin-right: 20px;
+  }
+  
+  .navbar ul li {
+    list-style: none;
+    margin: 0 8px;
+    display: inline-block;
+    line-height: 80px;
+    margin-top: 30px;
+  }
+  
+  .navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    padding: 6px 13px;
+    margin-right: 25px;
+    text-transform: uppercase;
+  
+  }
+  
+  .navbar ul li a.active
+  .navbar ul li a:hover {
+    color: #dcb406;
+    border-radius: 2px;
+  }
+  */
